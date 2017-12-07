@@ -1,0 +1,100 @@
+html,body {
+    height: 100%;
+}
+
+/* 侧边栏 */
+.row {
+    height: 100%;
+}
+.slide {
+    background: #222d32;
+    height: 100%;
+    padding: 0;
+}
+.slide .header {
+    height: 50px;
+    background: #367fa9;
+    text-align: center;
+    line-height: 50px;
+    margin: 0;
+    font-weight: 900;
+    
+}
+.slide .header>a {
+    color: #fff;
+    text-decoration: none;
+}
+.slide .user {
+    padding: 0;
+    text-align: center;
+    margin-top: 35px;
+    color: #fff;
+    
+}
+.slide .user img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.list {
+    margin-top: 40px;
+}
+.list>ul {
+    padding-left: 15px;
+}
+.list>ul>li {
+    font-size: 14px;
+    color: gray;
+}
+
+.list>ul>li>a {
+  /* padding-left: 60px; */
+  border: 3px solid transparent;
+  
+    color: #aaa;
+    text-decoration: none;
+    display: block;
+    width: 100%;
+    padding: 10px 0 10px 60px;
+    
+}
+.list>ul>li>a.active {
+    border-left: 3px solid #367fa9;
+    color: #fff;
+    background: #000;
+}
+.list>ul li>a span {
+    margin-right: 5px;
+}
+
+.list>ul>li:nth-child(2)>ol {
+    padding-left: 80px;
+    font-size: 12px;
+}
+.list>ul>li:nth-child(2)>ol a {
+    color: #aaa;
+    text-decoration: none;
+    padding: 5px 0;
+    display: block;
+}
+
+/* main */
+.main {
+    padding: 0;
+}
+.main .header {
+    height: 50px;
+    background: #3c8dbc;
+    padding: 0 20px;
+    font-size: 18px;
+    color: #fff;
+}
+.main .header >span {
+    line-height: 50px;
+    top: 0;
+}
+
+.cons {
+    padding: 25px 15px 0;
+}

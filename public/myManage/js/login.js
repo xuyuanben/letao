@@ -63,10 +63,10 @@ $(function () {
             data: $('form').serialize(),
             type: 'post',
             success: function (backdata) {
-                console.log(backdata);
+                // console.log(backdata);
                 var validator = $("form").data('bootstrapValidator');
                 if (backdata.success) {
-
+                    window.location = './index.html';
                 } else {
                     if (backdata.error == 1001) {
                         // console.log('密码错误');
